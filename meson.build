@@ -7,6 +7,8 @@ project(
 )
 
 dependencies = [
+  dependency('raylib'),
+  dependency('X11')
 ]
 
 sources = [

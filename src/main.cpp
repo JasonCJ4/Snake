@@ -1,7 +1,7 @@
 #include <raylib.h>
 
 int main() {
-  InitWindow(1280, 720, "Snake");
+  InitWindow(600, 600, "Snake");
 
   while (WindowShouldClose() == 0) {
     BeginDrawing();
